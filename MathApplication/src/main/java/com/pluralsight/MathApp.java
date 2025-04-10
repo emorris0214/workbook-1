@@ -14,7 +14,7 @@ you want. Print the answer (i.e "The highest salary is ...") */
 
 /*2. Find and display the smallest of two variables named carPrice and
 truckPrice. Set the variables to any value you want. */
-       float carPrice = 100.9f;
+        float carPrice = 100.9f;
         float truckPrice = 200.8f;
         float minPrice = Math.min(carPrice, truckPrice);
         System.out.println("2. The smallest variable is " + minPrice);
@@ -37,6 +37,7 @@ truckPrice. Set the variables to any value you want. */
         int y2 = 50;
         double distance = Math.sqrt((x2 - x1)^2 + (y2 - y1)^2);
         System.out.println("5. The distance between the two points are: " + distance);
+
 //6. Find and display the absolute (positive) value of a variable after it is set to -3.8
 
 // 7. Find and display a random number between 0 and 1
