@@ -12,7 +12,7 @@ public class SandwichShop {
         System.out.println("Welcome to E's Hoagie's!");
         System.out.print("What size sandwich would you like today? (R/L) ");
 
-        String size = keyboard.nextLine().trim().toUpperCase();
+        String size = keyboard.nextLine().toUpperCase();
 
         if (size.equals("R")) {
             regSize = true;
@@ -26,7 +26,7 @@ public class SandwichShop {
         }
 
         System.out.print("Would you like your sandwich loaded? (Y/N) ");
-        String loadInput = keyboard.nextLine().trim().toUpperCase();
+        String loadInput = keyboard.nextLine().toUpperCase();
         if (loadInput.equals("Y")) {
             loaded = true;
         }
