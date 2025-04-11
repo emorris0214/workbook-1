@@ -20,7 +20,7 @@ public class PayrollCalc {
         float payRate = userInput.nextFloat();
 
         /* if (hrsWorked > 40) {
-            payRate += payRate / 2;
+            payRate = (payRate / 2) *  ;
         }
          */
 
